@@ -1,9 +1,3 @@
-/*
-Template Name:Mediumish
-Copyright:WowThemes.net,https://www.wowthemes.net
-Version:1.0.1
-License: https://www.wowthemes.net/freebies-license/
-*/
 body {
 	padding-top:5rem;
 }
@@ -17,8 +11,11 @@ a,a:hover {
 	transition:all 0.2s;
 }
 .mediumnavigation {
-	background:rgba(255,255,255,.97);
+	background:#23d160;
 	box-shadow:0 2px 2px -2px rgba(0,0,0,.15);
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #ffffff;
 }
 section {
 	margin-bottom:20px;
@@ -176,7 +173,7 @@ span.post-name a,span.post-read-more a:hover {
 }
 .mediumnavigation .form-inline .btn:hover,.mediumnavigation .form-inline .btn:active {
 	background:transparent;
-	color:green;
+	color:#22c65b;
 }
 .mediumnavigation .navbar-brand {
 	font-weight:500;
@@ -223,7 +220,7 @@ span.post-name a,span.post-read-more a:hover {
 	color:rgba(0,0,0,.8);
 }
 blockquote {
-	border-left:4px solid #00ab6b;
+	border-left:4px solid #23d160;
 	padding:0 20px;
 	font-style:italic;
 	color:rgba(0,0,0,.5);
@@ -350,8 +347,8 @@ ul.tags li a:hover {
 	margin-bottom:1.2rem;
 }
 .btn.follow {
-	border-color:#02B875;
-	color:#1C9963;
+	border-color:#23d160;
+	color:#23d160;
 	padding:3px 10px;
 	text-align:center;
 	border-radius:999em;
@@ -359,8 +356,8 @@ ul.tags li a:hover {
 	display:inline-block;
 }
 .btn.subscribe {
-	background-color:#1C9963;
-	border-color:#1C9963;
+	background-color:#23d160;
+	border-color:#23d160;
 	color:rgba(255,255,255,1);
 	fill:rgba(255,255,255,1);
 	border-radius:30px;
@@ -368,6 +365,10 @@ ul.tags li a:hover {
 	margin-left:10px;
 	font-weight:600;
 	text-transform:uppercase;
+}
+.btn.subscribe:hover, .btn.subscribe:focus, .btn.subscribe:active{
+	background-color:#22c65b;
+	border-color:#22c65b;
 }
 .post-top-meta .btn.follow {
 	margin-left:5px;
